@@ -1,0 +1,274 @@
+html{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background-color: #0A0C16;
+}
+header{
+    min-height: 100vh;
+    background-image: url(../images/dj.png.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+}
+.nav{
+    display: flex;
+    float: right;
+    list-style: none;
+    position: fixed;
+    right: 100px;
+   
+    
+    
+}
+.nav li{
+    display: inline-block;
+    
+
+}
+.nav li a{
+    padding: 0px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: large;
+  }
+  .nav li a:hover{
+    color: #e4bcff;
+  }
+  .nav li .btn{
+    font-size: 120%;
+    border: solid 2px #e4bcff ;
+    padding: 7px 30px;
+    margin-right: 13px ;
+    color: #e4bcff;
+  }
+  .nav li .btn:hover{
+   color: #fff;
+   border: none;
+   transition: 1s;
+  }
+  .hero{
+   position: relative;
+  }
+  h1{
+    color: #fff;
+    font-size: 3.5rem;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* float: right; */
+    position: absolute;
+    right: 180px; top: 260px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .hero p{
+   /* text-align: justify; */
+    /* width: 30% ; */
+    color: #fff;
+    /* float: right; */
+    position: absolute;
+    right: 135px; top: 395px;
+    text-align: center;
+  }
+  .hero a{
+    font-size: 120%;
+    border: solid 2px #e4bcff ;
+    padding: 7px 30px;
+    margin-right: 13px ;
+    color: #e4bcff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    right: 200px; top: 490px;
+  }
+  .hero a:hover{
+    color: #fff;
+    border-color: #fff;
+    transition: 1s;
+  }
+ .highlights{
+    height: 50vh;
+    
+ }
+ #highlights h3{
+  margin: 20px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+ }
+ #highlights hr{
+    width: 85px;
+    border: solid .5px #8592EB;
+    margin-bottom: 25px;
+   
+ }
+ .highlights h4{
+  
+  margin: 20px ;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+ }
+ .highlights h4:hover{
+    opacity: 0.6;
+    transition: 1s;
+ }
+ .highlights img:hover{
+  opacity: 0.6;
+  transition: 1s;
+ }
+ .new{
+    position: relative;
+ }
+ .new a{
+  font-size: 2rem;
+  font-weight: 500;
+  /* margin-top: 45px; */
+  text-decoration: none;
+  color: #fff;
+ }
+ .new a:hover{
+    opacity: 0.6;
+    transition: 1s;
+ }
+ .new a img{
+    margin-top: 20px;
+    
+ }
+ .new a img:hover{
+    opacity: 1;
+    transition: 1s;
+ }
+ #content{
+    margin: 160px 0px;
+ }
+ .new h5{
+    font-size: 2rem;
+    font-weight: 400;
+ }
+ .new p{
+   text-align: justify;
+ }
+ .new hr{
+    width: 35px;
+    float: left;
+    border: solid .5px #8592EB;
+    position: absolute;
+    top: 150px;
+ }
+ footer{
+   height: 10vh;
+    padding: 40px;
+    position: relative;
+    justify-content: space-around;
+    margin-right: 80px;
+ }
+ footer p{
+   text-align: center;
+   padding: 20px;
+   margin-left: 50px;
+   color: #fff;
+   opacity: 0.6;
+ }
+ .social-nav,.footer-nav{
+   list-style: none;
+   display: flex;
+}
+.social-nav{
+   float: right;
+}
+.social-nav li,.footer-nav li{
+margin-right: 20px;
+padding-top: 50px;
+
+}
+.social-nav a,.footer-nav a{
+   color: #fff;
+   opacity: 0.6;
+   text-decoration: none;
+   font-size: 1.2rem;
+}
+.social-nav i,.footer-nav i{
+  font-size: 1.4rem;
+  padding: 0px 5px;
+}
+.social-nav a:hover,.footer-nav a:hover{
+   color: #fff;
+   opacity: 1;
+   transition: 1s;
+}
+
+ #top{
+   margin-top: 60px;
+ }
+ #top h2{
+   font-size: 2.5rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   opacity: .6;
+   
+ }
+.top a {
+   text-decoration: none;
+   font-size: 1.7rem;
+   color: #fff;
+   opacity: .6;
+}
+.top a:hover{
+  color: #fff;
+  opacity: 1;
+  transition: 1s;
+ }
+ .top a i:hover{
+   opacity: 0;
+   transition: 1s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 700px) {
+ h1{
+  font-size: 2.3rem;
+  position: absolute;
+  right: 160px; top: 220px; left: 60px;
+ }
+ .hero p{
+   position: absolute;
+    right: 150px; top: 350px; left: 60px;
+ }
+ .hero a{
+   position: absolute;
+   right: 160px; top: 500px; left: 60px;
+ }
+ .nav{
+   position: fixed;
+    left: -50px;
+ }
+ #top h2{
+   font-size: 2.1rem;
+ }
+ .top a{
+   font-size: 1.3rem;
+ }
+}
